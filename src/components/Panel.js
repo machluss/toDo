@@ -83,7 +83,7 @@ class Panel extends React.Component {
                 <label htmlFor='priority'>Priorytet</label>
                 {this.state.errors.textInput ? <p style={{
                     fontSize: '12px',
-                    color: 'red',
+                    color: '#ad0000',
                     fontStyle: 'italic'
                 }}>Pole musi zawierać co najmniej 3 znaki</p> : null}
             </div>
@@ -105,7 +105,7 @@ class Panel extends React.Component {
                 />
                 {this.state.errors.dateInput ? <p style={{
                     fontSize: '12px',
-                    color: 'red',
+                    color: '#ad0000',
                     fontStyle: 'italic'
                 }}>Pole musi zostać uzupełnione</p> : null}
             </div>

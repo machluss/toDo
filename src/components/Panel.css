@@ -10,9 +10,9 @@ button.panel {
 }
 
 button.panel:hover {
-    background-color: rgb(118, 119, 212);
+    background-color: #7E5379;
     cursor: pointer;
-    color: rgb(41, 41, 41);
+    color: #ececec;
 }
 
 form>div:first-of-type {
@@ -22,4 +22,9 @@ form>div:first-of-type {
 input {
     padding: 5px;
     border-radius: 5px;
+}
+
+input:focus, button:focus {
+outline: none;
+/* border: none; */
 }

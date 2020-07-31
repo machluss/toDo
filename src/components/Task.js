@@ -8,7 +8,8 @@ const Task = props => {
         <div className='task'>
             <span
                 style={priority ? {
-                    color: 'red'
+                    color: '#ad0000',
+                    fontWeight: 'bold'
                 } : {}}
             >{text}</span> <em
                 style={{
