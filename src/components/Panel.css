@@ -1,0 +1,25 @@
+button.panel {
+    margin-top: 10px;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+button.panel:hover {
+    background-color: rgb(118, 119, 212);
+    cursor: pointer;
+    color: rgb(41, 41, 41);
+}
+
+form>div:first-of-type {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+}

@@ -1,0 +1,23 @@
+button.taskBtn {
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+button.taskBtn:hover {
+    background-color: rgb(148, 201, 112);
+    cursor: pointer;
+    color: rgb(41, 41, 41);
+}
+
+button.taskBtn:hover:nth-of-type(2) {
+    background-color: rgb(226, 95, 95);
+}
+
+div.task {
+    margin-bottom: 5px;
+}
