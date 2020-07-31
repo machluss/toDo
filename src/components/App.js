@@ -48,7 +48,7 @@ class App extends React.Component {
   render = () => {
     return (
       <div className="App">
-        <h1>To|dO ApP</h1>
+        <h1>To|DO App</h1>
         <Panel
           addTask={this.addTask}
         />
